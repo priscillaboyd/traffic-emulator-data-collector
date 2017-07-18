@@ -1,5 +1,4 @@
 import org.junit.Test;
-import org.sikuli.script.FindFailed;
 
 import static org.junit.Assert.*;
 
@@ -9,7 +8,7 @@ public class EmulatorHandlerTest {
     @Test
     public void EmulatorCannotBeInitialisedAsIconNotFound() throws Exception {
         try{
-            emulator.initEmulator();
+            emulator.init();
         }
         catch(final Exception e){
             String expectedMsg = "FindFailed: can not find img/icoEmSignals.png " +

@@ -7,7 +7,7 @@ public class EmulatorHandler {
 	IOHandler io = new IOHandler();
 	
 	//Initialise emulator
-	void initEmulator(){
+	void init(){
 		try{
 			s.click("img/icoEmSignals.png");
 	        s.click(s.wait("img/icoOK.png"),5);
