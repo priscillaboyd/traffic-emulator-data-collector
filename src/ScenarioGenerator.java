@@ -8,11 +8,11 @@ import java.util.concurrent.TimeUnit;
 public class ScenarioGenerator {
 	@SuppressWarnings("unchecked")
 	Set<List<String>> result = Sets.cartesianProduct(
-            ImmutableSet.of("Zero", "Low", "Medium", "High"),
-            ImmutableSet.of("Zero", "Low", "Medium", "High"),
-            ImmutableSet.of("Zero", "Low", "Medium", "High"),
-            ImmutableSet.of("Zero", "Low", "Medium", "High")
-    );
+			ImmutableSet.of("Zero", "Low", "Medium", "High"),
+			ImmutableSet.of("Zero", "Low", "Medium", "High"),
+			ImmutableSet.of("Zero", "Low", "Medium", "High"),
+			ImmutableSet.of("Zero", "Low", "Medium", "High")
+	);
 	
 	@SuppressWarnings("rawtypes")
 	List getResult(List result){

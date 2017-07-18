@@ -4,7 +4,7 @@ class main {
     	e.init();
     	
     	//NOTE: Need to ensure the program is closed in order to move log!
-    	Logger log = new Logger();
-    	log.archiveLog();
+		Logger log = new Logger();
+		log.archiveLog();
     }
 }

@@ -2,16 +2,16 @@ import org.sikuli.script.FindFailed;
 import org.sikuli.script.*;
 
 //Responsible for loading and closing the emulator / modules
-public class EmulatorHandler {
-	Screen s = new Screen();
-	IOHandler io = new IOHandler();
+class EmulatorHandler {
+	private Screen screen = new Screen();
+	private Car car = new Car();
 	
 	//Initialise emulator by selecting icon
 	void init(){
 		try{
-			s.click("img/icoEmSignals.png");
-	        s.click(s.wait("img/icoOK.png"),5);
-	        s.click(s.wait("img/icoOK.png"),5);
+			screen.click("img/icoEmSignals.png");
+	        screen.click(screen.wait("img/icoOK.png"),5);
+	        screen.click(screen.wait("img/icoOK.png"),5);
 	        Thread.sleep(5000);
 		}
 		catch(FindFailed | InterruptedException e){
@@ -23,16 +23,17 @@ public class EmulatorHandler {
 	}
 	
 	//Initialise modules
-	void initModules(){
-		io.initIOList(s);
+    private void initModules(){
+//		io.initIOList(screen);
+        car.enableDetection(screen);
 	}
 	
-	void exitEmulator(){
+	private void exitEmulator(){
 		try {
-			s.find("img/btn_Emu_FileView.png");
-			s.click("img/btn_Emu_File");
-			s.find("img/btn_Emu_ChangeExit.png");
-			s.click("img/btn_Emu_Exit.png");
+			screen.find("img/btn_Emu_FileView.png");
+			screen.click("img/btn_Emu_File");
+			screen.find("img/btn_Emu_ChangeExit.png");
+			screen.click("img/btn_Emu_Exit.png");
 		} catch (FindFailed e) {
 			e.printStackTrace();
 		}
