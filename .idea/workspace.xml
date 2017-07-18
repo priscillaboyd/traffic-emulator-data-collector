@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e254375e-b01c-4b01-842f-a2b308bc66b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EmulatorHandler.java" afterPath="$PROJECT_DIR$/src/EmulatorHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.java" afterPath="$PROJECT_DIR$/src/main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/EmulatorHandlerTest.java" afterPath="$PROJECT_DIR$/test/EmulatorHandlerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +32,8 @@
           <file leaf-file-name="EmulatorHandler.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/EmulatorHandler.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+                <state relative-caret-position="442">
+                  <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -98,6 +96,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Priscilla Boyd &lt;priscillaboyd@users.noreply.github.com&gt;" />
         <option value="Priscilla Boyd" />
       </list>
     </option>
@@ -450,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500401546255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Minor formatting changes.">
+      <created>1500402247748</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500402247748</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -519,7 +525,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added JUnit test file with first test, checking for error message when emulator cannot be run as emulator icon has not been found." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added JUnit test file with first test, checking for error message when emulator cannot be run as emulator icon has not been found." />
+    <MESSAGE value="Minor formatting changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor formatting changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -591,8 +598,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EmulatorHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="442">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
