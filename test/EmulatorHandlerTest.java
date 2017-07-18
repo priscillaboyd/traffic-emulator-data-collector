@@ -3,7 +3,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class EmulatorHandlerTest {
-    EmulatorHandler emulator = new EmulatorHandler();
+    emulatorHandler emulator = new emulatorHandler();
 
     @Test
     public void EmulatorCannotBeInitialisedAsIconNotFound() throws Exception {
