@@ -6,7 +6,7 @@ public class EmulatorHandler {
 	Screen s = new Screen();
 	IOHandler io = new IOHandler();
 	
-	//Initialise emulator
+	//Initialise emulator by selecting icon
 	void init(){
 		try{
 			s.click("img/icoEmSignals.png");
