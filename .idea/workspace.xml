@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e254375e-b01c-4b01-842f-a2b308bc66b9" name="Default" comment="Refactoring, created new Car class for better scenario handling, general formatting changes and renaming of modules.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Car.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/IOHandler.java" afterPath="$PROJECT_DIR$/src/Car.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Emulator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/EmulatorTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/EmulatorHandler.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/EmulatorHandlerTest.java" afterPath="$PROJECT_DIR$/test/CarTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EmulatorHandler.java" afterPath="$PROJECT_DIR$/src/EmulatorHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ScenarioGenerator.java" afterPath="$PROJECT_DIR$/src/ScenarioGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Car.java" afterPath="$PROJECT_DIR$/src/Car.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.java" afterPath="$PROJECT_DIR$/src/main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/EmulatorHandlerTest.java" afterPath="$PROJECT_DIR$/test/EmulatorHandlerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,18 +28,8 @@
           <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="EmulatorHandler.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/EmulatorHandler.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+                <state relative-caret-position="306">
+                  <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -50,8 +40,23 @@
           <file leaf-file-name="Car.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Car.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+                <state relative-caret-position="306">
+                  <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#368#369#0" expanded="true" />
+                    <element signature="e#408#409#0" expanded="true" />
+                    <element signature="e#460#461#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Emulator.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Emulator.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -63,11 +68,23 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="EmulatorHandlerTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/EmulatorHandlerTest.java">
+          <file leaf-file-name="EmulatorTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/EmulatorTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+                <state relative-caret-position="272">
+                  <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CarTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/CarTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -108,20 +125,22 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/test/EmulatorHandlerTest" />
         <option value="$PROJECT_DIR$/src/EmulatorHandlerTest.java" />
-        <option value="$PROJECT_DIR$/test/EmulatorHandlerTest.java" />
         <option value="$PROJECT_DIR$/src/IOHandler.java" />
         <option value="$PROJECT_DIR$/src/ScenarioGenerator.java" />
+        <option value="$PROJECT_DIR$/test/EmulatorHandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/EmulatorHandler.java" />
+        <option value="$PROJECT_DIR$/src/Emulator.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/Car.java" />
-        <option value="$PROJECT_DIR$/src/EmulatorHandler.java" />
+        <option value="$PROJECT_DIR$/test/CarTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1145" />
-    <option name="height" value="802" />
+    <option name="width" value="1571" />
+    <option name="height" value="615" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -239,14 +258,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="EmulatorHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CarTest.DetectorProvidedIsActivated">
+    <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="traffic-emulator-data-collector" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmulatorHandlerTest" />
+      <option name="MAIN_CLASS_NAME" value="CarTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -260,13 +279,53 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="EmulatorHandlerTest.EmulatorCannotBeInitialisedAsIconNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarTest.DetectorIsActivated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="traffic-emulator-data-collector" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmulatorHandlerTest" />
+      <option name="MAIN_CLASS_NAME" value="CarTest" />
+      <option name="METHOD_NAME" value="DetectorIsActivated" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CarTest.DetectorProvidedIsActivated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="traffic-emulator-data-collector" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarTest" />
+      <option name="METHOD_NAME" value="DetectorProvidedIsActivated" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="EmulatorTest.EmulatorCannotBeInitialisedAsIconNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="traffic-emulator-data-collector" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmulatorTest" />
       <option name="METHOD_NAME" value="EmulatorCannotBeInitialisedAsIconNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -395,39 +454,20 @@
       <module name="traffic-emulator-data-collector" />
       <envs />
     </configuration>
-    <configuration name="test in traffic-emulator-data-collector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="traffic-emulator-data-collector" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="directory" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <dir value="$PROJECT_DIR$/test" />
-      <patterns />
-    </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.test in traffic-emulator-data-collector" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EmulatorHandlerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EmulatorHandlerTest.EmulatorCannotBeInitialisedAsIconNotFound" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EmulatorTest.EmulatorCannotBeInitialisedAsIconNotFound" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CarTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CarTest.DetectorIsActivated" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CarTest.DetectorProvidedIsActivated" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EmulatorHandlerTest.EmulatorCannotBeInitialisedAsIconNotFound" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EmulatorHandlerTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.test in traffic-emulator-data-collector" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CarTest.DetectorProvidedIsActivated" />
+        <item index="1" class="java.lang.String" itemvalue="Application.main" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CarTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CarTest.DetectorIsActivated" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EmulatorTest.EmulatorCannotBeInitialisedAsIconNotFound" />
       </list>
     </recent_temporary>
   </component>
@@ -477,39 +517,46 @@
       <option name="project" value="LOCAL" />
       <updated>1500404447674</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactoring, created new Car class for better scenario handling, general formatting changes and renaming of modules.">
+      <created>1500409788920</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1500409788920</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmulatorHandlerTest - 2017.07.18 at 19h 01m 55s.xml">
-      <configuration name="EmulatorHandlerTest" configurationId="JUnit" />
+    <history-entry file="CarTest - 2017.07.19 at 15h 40m 00s.xml">
+      <configuration name="CarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmulatorHandlerTest - 2017.07.18 at 19h 02m 51s.xml">
-      <configuration name="EmulatorHandlerTest" configurationId="JUnit" />
+    <history-entry file="CarTest - 2017.07.19 at 15h 40m 30s.xml">
+      <configuration name="CarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmulatorHandlerTest - 2017.07.18 at 19h 05m 08s.xml">
-      <configuration name="EmulatorHandlerTest" configurationId="JUnit" />
+    <history-entry file="CarTest - 2017.07.19 at 15h 51m 47s.xml">
+      <configuration name="CarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmulatorHandlerTest - 2017.07.18 at 20h 05m 38s.xml">
-      <configuration name="EmulatorHandlerTest" configurationId="JUnit" />
+    <history-entry file="CarTest_DetectorIsActivated - 2017.07.19 at 15h 42m 11s.xml">
+      <configuration name="CarTest.DetectorIsActivated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmulatorHandlerTest - 2017.07.18 at 20h 06m 22s.xml">
-      <configuration name="EmulatorHandlerTest" configurationId="JUnit" />
+    <history-entry file="CarTest_DetectorIsActivated - 2017.07.19 at 15h 43m 52s.xml">
+      <configuration name="CarTest.DetectorIsActivated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmulatorHandlerTest_EmulatorCannotBeInitialisedAsIconNotFound - 2017.07.18 at 19h 05m 31s.xml">
-      <configuration name="EmulatorHandlerTest.EmulatorCannotBeInitialisedAsIconNotFound" configurationId="JUnit" />
+    <history-entry file="CarTest_DetectorIsActivated - 2017.07.19 at 15h 45m 15s.xml">
+      <configuration name="CarTest.DetectorIsActivated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmulatorHandlerTest_EmulatorCannotBeInitialisedAsIconNotFound - 2017.07.18 at 19h 06m 07s.xml">
-      <configuration name="EmulatorHandlerTest.EmulatorCannotBeInitialisedAsIconNotFound" configurationId="JUnit" />
+    <history-entry file="CarTest_DetectorIsActivated - 2017.07.19 at 15h 45m 41s.xml">
+      <configuration name="CarTest.DetectorIsActivated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmulatorHandlerTest_EmulatorCannotBeInitialisedAsIconNotFound - 2017.07.18 at 19h 09m 12s.xml">
-      <configuration name="EmulatorHandlerTest.EmulatorCannotBeInitialisedAsIconNotFound" configurationId="JUnit" />
+    <history-entry file="CarTest_DetectorProvidedIsActivated - 2017.07.19 at 15h 46m 19s.xml">
+      <configuration name="CarTest.DetectorProvidedIsActivated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmulatorHandlerTest_EmulatorCannotBeInitialisedAsIconNotFound - 2017.07.18 at 20h 02m 32s.xml">
-      <configuration name="EmulatorHandlerTest.EmulatorCannotBeInitialisedAsIconNotFound" configurationId="JUnit" />
+    <history-entry file="CarTest_DetectorProvidedIsActivated - 2017.07.19 at 15h 48m 07s.xml">
+      <configuration name="CarTest.DetectorProvidedIsActivated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmulatorHandlerTest_EmulatorCannotBeInitialisedAsIconNotFound - 2017.07.18 at 20h 07m 44s.xml">
-      <configuration name="EmulatorHandlerTest.EmulatorCannotBeInitialisedAsIconNotFound" configurationId="JUnit" />
+    <history-entry file="CarTest_DetectorProvidedIsActivated - 2017.07.19 at 16h 11m 46s.xml">
+      <configuration name="CarTest.DetectorProvidedIsActivated" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -518,12 +565,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14884695" sideWeight="0.48541668" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2027833" sideWeight="0.4829582" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14884695" sideWeight="0.51458335" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25262055" sideWeight="0.23020834" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34696016" sideWeight="0.77708334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25262055" sideWeight="0.76979166" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11777457" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -583,7 +630,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/EmulatorHandlerTest.java">
+    <entry file="file://$PROJECT_DIR$/test/EmulatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
@@ -599,9 +646,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/EmulatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Emulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ScenarioGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="-459">
           <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -611,24 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IOHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmulatorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -637,18 +704,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/EmulatorHandlerTest.java">
+    <entry file="file://$PROJECT_DIR$/test/CarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

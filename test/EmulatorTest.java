@@ -1,8 +1,8 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class EmulatorHandlerTest {
-    EmulatorHandler emulator = new EmulatorHandler();
+public class EmulatorTest {
+    private Emulator emulator = new Emulator();
 
     @Test
     public void EmulatorCannotBeInitialisedAsIconNotFound(){
@@ -15,4 +15,5 @@ public class EmulatorHandlerTest {
             assertEquals(e, e.getMessage());
         }
     }
+
 }

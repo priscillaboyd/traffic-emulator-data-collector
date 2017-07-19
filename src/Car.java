@@ -8,14 +8,27 @@ import java.util.*;
 class Car {
 
     private ListMultimap<String, String> multimap = ArrayListMultimap.create();
+    private Screen s = new Screen();
 
-    // simulate car detection based on its location
-    void enableDetection(Screen s) {
-        // add detectors by phase to the map
-        multimap.put("A", "ASL1");
-        multimap.put("A", "MVDA05");
-        multimap.put("B", "BSL1");
+    Car(ListMultimap<String, String> multimap){
+        this.multimap = multimap;
+    }
 
+    void addEntryToIOMap(String phase, String IO){
+        multimap.put(phase, IO);
+    }
+
+    private void loadDetectorsAtOnce(){
+        addEntryToIOMap("A", "ASL1");
+        addEntryToIOMap("A", "MVDA05");
+        addEntryToIOMap("B", "BSL1");
+    }
+
+    void simulate() {
+        // add detectors to the map
+        loadDetectorsAtOnce();
+
+        // run simulation
         try {
             s.click(s.wait("img/btnClearAll.png"), 5);
             s.click("img/IO_ASL1.png");
@@ -27,10 +40,10 @@ class Car {
 
                 // create collection to store list of IOs for given phase
                 Collection<String> IO = multimap.get(phase);
+                System.out.println("IO is " + IO);
 
                 // activate each IO in the map within the emulator
                 for (String value : IO) {
-//                  s.type("PBH06");
                     s.type(value);
                     s.click("img/btnActivate.png");
                     Thread.sleep(5000);
