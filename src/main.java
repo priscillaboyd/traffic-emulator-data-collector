@@ -1,15 +1,20 @@
-import com.google.common.collect.ArrayListMultimap;
-import com.google.common.collect.ListMultimap;
-
 class main {
     public static void main(String[] args) {
     	Emulator e = new Emulator();
+        Car car = new Car();
 
-        ListMultimap<String, String> multimap = ArrayListMultimap.create();
-        Car car = new Car(multimap);
+        // instantiate individual approaches
+        AlderRoadNB alderRoadNB = new AlderRoadNB();
+        AlderRoadSB alderRoadSB = new AlderRoadSB();
+        MossleyAvenueWB mossleyAvenueWB = new MossleyAvenueWB();
+        MossleyAvenueEB mossleyAvenueEB = new MossleyAvenueEB();
 
+        // simulation with given approaches
     	e.init();
-    	car.simulate();
+        car.simulate(alderRoadNB.getEquipmentMap());
+        car.simulate(alderRoadSB.getEquipmentMap());
+        car.simulate(mossleyAvenueWB.getEquipmentMap());
+        car.simulate(mossleyAvenueEB.getEquipmentMap());
     	e.exit();
     	
 //    	//NOTE: Need to ensure the program is closed in order to move log!
