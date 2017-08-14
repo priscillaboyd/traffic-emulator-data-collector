@@ -23,8 +23,8 @@ public class MossleyAvenueWB implements Approach {
     public void addEquipment() {
         map = ArrayListMultimap.create();
         map.put("C", "CSL1");
-        map.put("B", "SLDC02");
-        map.put("B", "MVDC02");
+        map.put("C", "SLDC02");
+        map.put("C", "MVDC02");
     }
 
     public ListMultimap<String, String> getEquipmentMap(){

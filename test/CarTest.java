@@ -1,3 +1,4 @@
+import org.bridj.ann.Template;
 import org.junit.Test;
 import org.sikuli.script.Screen;
 
@@ -8,7 +9,7 @@ public class CarTest {
     private Emulator e = new Emulator();
 
     @Test
-    public void DetectorProvidedIsActivatedThroughKeyboard(){
+    public void DetectorProvidedIsActivatedThroughKeyboard() {
         e.init();
         assertEquals(1, s.type("ASL1"));
         e.exit();
