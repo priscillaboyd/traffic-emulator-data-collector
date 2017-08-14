@@ -26,6 +26,7 @@ class Car {
         }
     }
 
+    // activate simulation
     private void activate(){
         try{
             s.click("img/btnActivate.png");
@@ -35,6 +36,7 @@ class Car {
         }
     }
 
+    // deactivate simulation
     private void deactivate(){
         try{
             s.click("img/btnDeactivate.png");
