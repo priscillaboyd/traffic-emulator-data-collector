@@ -1,7 +1,6 @@
 import com.google.common.collect.ListMultimap;
 import org.sikuli.script.FindFailed;
 import org.sikuli.script.Screen;
-
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.Random;
