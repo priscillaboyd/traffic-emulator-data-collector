@@ -26,6 +26,7 @@ class Car {
         }
     }
 
+    // activate simulation
     private void activate(){
         try{
             s.click("img/btnActivate.png");
@@ -35,6 +36,7 @@ class Car {
         }
     }
 
+    // deactivate simulation
     private void deactivate(){
         try{
             s.click("img/btnDeactivate.png");
@@ -55,13 +57,13 @@ class Car {
                     System.out.println(value);
                     switch (congestionLevel) {
                         case "low":
-                            runForPeriod(150, 300); //2.5 min to 3 min
+                            runForPeriod(120, 150); //2 min to 2.5 min
                             break;
                         case "medium":
-                            runForPeriod(30, 60);
+                            runForPeriod(30, 60); //0.5 min to 1 min
                             break;
                         case "high":
-                            runForPeriod(5, 5);
+                            runForPeriod(5, 5); // 5 seconds
                             break;
                     }
                     // if mode is 'sequence', then de-activate detector
