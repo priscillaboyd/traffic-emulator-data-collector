@@ -5,8 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e254375e-b01c-4b01-842f-a2b308bc66b9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/AlderRoadNB.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/AlderRoadSB.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/Approach.direction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/Approach.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/Approach.type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/CarTest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/EmulatorTest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/Logger.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/MossleyAvenueEB.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/MossleyAvenueWB.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/allclasses-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/allclasses-noframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/constant-values.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/help-doc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/overview-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/package-list" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Car.java" afterPath="$PROJECT_DIR$/src/Car.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +95,8 @@
           <file leaf-file-name="DataGenerator.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/DataGenerator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-136">
-                  <caret line="80" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+                <state relative-caret-position="442">
+                  <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -542,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500480881342</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Minor typo fixed.">
+      <created>1506680707203</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1506680707203</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -579,18 +616,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16778524" sideWeight="0.5168375" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16778524" sideWeight="0.5168375" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5373832" sideWeight="0.48316252" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -632,7 +668,8 @@
     <MESSAGE value="Refactoring, created new Car class for better scenario handling, general formatting changes and renaming of modules." />
     <MESSAGE value="Renamed EmulatorHandler to Emulator, created CarTest module with simple test to ensure I/O provided by keyboard is working as expected" />
     <MESSAGE value="Created Approach interface and classes referring to different junctions, refactored Car class and general formatting changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Approach interface and classes referring to different junctions, refactored Car class and general formatting changes." />
+    <MESSAGE value="Minor typo fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor typo fixed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -963,14 +1000,6 @@
     <entry file="file://$PROJECT_DIR$/bin/ScenarioGenerator.class" />
     <entry file="file://$PROJECT_DIR$/bin/emulatorHandler.class" />
     <entry file="file://$PROJECT_DIR$/bin/Logger.class" />
-    <entry file="file://$PROJECT_DIR$/src/DataGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AlderRoadNB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -985,6 +1014,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding />
         </state>
       </provider>
