@@ -45,8 +45,8 @@ class Car {
         }
     }
 
-    // simulate congestion
-    void simulateCongestion(ListMultimap<String, String> multimap, int numCycles, String congestionLevel, String mode) {
+    // move car at given pace
+    void move(ListMultimap<String, String> multimap, int numCycles, String congestionLevel, String mode) {
         Set<String> keys = multimap.keySet();
         for (String phase : keys) {
             Collection<String> IO = multimap.get(phase);

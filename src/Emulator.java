@@ -38,7 +38,7 @@ class Emulator {
         }
     }
 
-    // clear all I/O button
+    // press button to clear all I/O
     void clearAll(){
         try {
             screen.find("img/btnClearAll.png");
@@ -48,7 +48,7 @@ class Emulator {
         }
     }
 
-    // deactivate emulator
+    // press button to deactivate emulator
     void deactivate(){
         try {
             screen.find("img/btnDeactivate.png");
