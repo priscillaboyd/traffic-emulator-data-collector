@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e254375e-b01c-4b01-842f-a2b308bc66b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Car.java" afterPath="$PROJECT_DIR$/src/Car.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataGenerator.java" afterPath="$PROJECT_DIR$/src/DataGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Emulator.java" afterPath="$PROJECT_DIR$/src/Emulator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.java" afterPath="$PROJECT_DIR$/src/main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Logger.java" afterPath="$PROJECT_DIR$/src/Logger.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Car.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Car.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -52,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Logger.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Logger.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Logger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +77,8 @@
       <file leaf-file-name="DataGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="361">
+              <caret line="82" column="68" lean-forward="false" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -164,12 +162,13 @@
         <option value="$PROJECT_DIR$/src/CarSimulation.java" />
         <option value="$PROJECT_DIR$/test/CarSimulationTest.java" />
         <option value="$PROJECT_DIR$/test/CarTest.java" />
-        <option value="$PROJECT_DIR$/src/DataGenerator.java" />
         <option value="$PROJECT_DIR$/src/MossleyAvenueWB.java" />
         <option value="$PROJECT_DIR$/src/MossleyAvenueEB.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/Emulator.java" />
         <option value="$PROJECT_DIR$/src/Car.java" />
+        <option value="$PROJECT_DIR$/src/DataGenerator.java" />
+        <option value="$PROJECT_DIR$/src/Logger.java" />
       </list>
     </option>
   </component>
@@ -605,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506682315034</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Renamed functions and added comments for clarity.">
+      <created>1506697028253</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1506697028253</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -726,7 +732,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/priscillaboyd/traffic-emulator-data-collector&#10;&#10;# Conflicts:&#10;#&#9;docs/AlderRoadNB.html&#10;#&#9;docs/AlderRoadSB.html&#10;#&#9;docs/Approach.direction.html&#10;#&#9;docs/Approach.html&#10;#&#9;docs/Approach.type.html&#10;#&#9;docs/CarTest.html&#10;#&#9;docs/EmulatorTest.html&#10;#&#9;docs/Logger.html&#10;#&#9;docs/MossleyAvenueEB.html&#10;#&#9;docs/MossleyAvenueWB.html&#10;#&#9;docs/allclasses-frame.html&#10;#&#9;docs/allclasses-noframe.html&#10;#&#9;docs/constant-values.html&#10;#&#9;docs/help-doc.html&#10;#&#9;docs/index.html&#10;#&#9;docs/overview-tree.html&#10;#&#9;docs/package-frame.html&#10;#&#9;docs/package-list&#10;#&#9;docs/package-summary.html&#10;#&#9;docs/package-tree.html&#10;#&#9;docs/script.js&#10;#&#9;docs/stylesheet.css&#10;#&#9;src/DataGenerator.java&#10;#&#9;src/Emulator.java&#10;#&#9;src/MossleyAvenueEB.java&#10;#&#9;src/MossleyAvenueWB.java" />
     <MESSAGE value="Fixed merge issues." />
     <MESSAGE value="Fixed merge issues and minor typos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed merge issues and minor typos." />
+    <MESSAGE value="Renamed functions and added comments for clarity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed functions and added comments for clarity." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1062,14 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1078,12 +1077,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logger.java">
+    <entry file="file://$PROJECT_DIR$/src/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#runForPeriod#0;class#Car#0" expanded="false" />
+            <element signature="method#activate#0;class#Car#0" expanded="false" />
+            <element signature="method#deactivate#0;class#Car#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1098,15 +1100,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/DataGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="361">
+          <caret line="82" column="68" lean-forward="false" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#runForPeriod#0;class#Car#0" expanded="false" />
-            <element signature="method#activate#0;class#Car#0" expanded="false" />
-            <element signature="method#deactivate#0;class#Car#0" expanded="false" />
           </folding>
         </state>
       </provider>

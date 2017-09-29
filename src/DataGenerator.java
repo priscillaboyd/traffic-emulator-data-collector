@@ -80,7 +80,7 @@ class DataGenerator {
         e.pause(7200);
         e.clearAll();
 
-        // run congested scenarios for half an hour each
+        // run congested scenarios for 7200 seconds (two hours each)
         congestionAllApproaches();
         e.pause(7200);
         e.clearAll();
