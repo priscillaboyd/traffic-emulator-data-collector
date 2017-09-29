@@ -25,46 +25,46 @@ class DataGenerator {
 
     private void congestionAllApproaches(){
         System.out.println(">> Simulating intermittent congestion on all approaches...");
-        c.simulateCongestion(alderRoadNB.getEquipmentMap(), 1, "high", "sequence");
-        c.simulateCongestion(alderRoadSB.getEquipmentMap(), 1, "high", "sequence");
-        c.simulateCongestion(mossleyAvenueWB.getEquipmentMap(), 1, "high", "sequence");
-        c.simulateCongestion(mossleyAvenueEB.getEquipmentMap(), 1, "high", "sequence");
+        c.simulateCongestion(alderRoadNB.getEquipmentMap(), 10, "high", "continuous");
+        c.simulateCongestion(alderRoadSB.getEquipmentMap(), 10, "high", "continuous");
+        c.simulateCongestion(mossleyAvenueWB.getEquipmentMap(), 10, "high", "continuous");
+        c.simulateCongestion(mossleyAvenueEB.getEquipmentMap(), 10, "high", "continuous");
     }
 
     private void congestionAlderRoadBothWays(){
         System.out.println(">> Simulating congestion for Alder Rd both ways...");
-        c.simulateCongestion(alderRoadNB.getEquipmentMap(), 1, "high", "sequence");
-        c.simulateCongestion(alderRoadSB.getEquipmentMap(), 1, "high", "sequence");
+        c.simulateCongestion(alderRoadNB.getEquipmentMap(), 10, "high", "sequence");
+        c.simulateCongestion(alderRoadSB.getEquipmentMap(), 10, "high", "sequence");
     }
 
     private void congestionMossleyAvenueBothWays(){
         System.out.println(">> Simulating congestion for Mossley Ave both ways...");
-        c.simulateCongestion(mossleyAvenueWB.getEquipmentMap(), 1, "high", "sequence");
-        c.simulateCongestion(mossleyAvenueEB.getEquipmentMap(), 1, "high", "sequence");
+        c.simulateCongestion(mossleyAvenueWB.getEquipmentMap(), 10, "high", "sequence");
+        c.simulateCongestion(mossleyAvenueEB.getEquipmentMap(), 10, "high", "sequence");
     }
 
     private void congestionAlderRoadNBMossleyAvenueWB(){
         System.out.println(">> Simulating congestion for Alder Rd NB and Mossley Avenue WB...");
-        c.simulateCongestion(alderRoadNB.getEquipmentMap(), 1, "high", "sequence");
-        c.simulateCongestion(mossleyAvenueWB.getEquipmentMap(), 1, "high", "sequence");
+        c.simulateCongestion(alderRoadNB.getEquipmentMap(), 10, "high", "sequence");
+        c.simulateCongestion(mossleyAvenueWB.getEquipmentMap(), 10, "high", "sequence");
     }
 
     private void congestionAlderRoadSBMossleyAvenueWB(){
         System.out.println(">> Simulating congestion for Alder Rd SB and Mossley Ave WB...");
-        c.simulateCongestion(alderRoadSB.getEquipmentMap(), 1, "high", "sequence");
-        c.simulateCongestion(mossleyAvenueWB.getEquipmentMap(), 1, "high", "sequence");
+        c.simulateCongestion(alderRoadSB.getEquipmentMap(), 10, "high", "continuous");
+        c.simulateCongestion(mossleyAvenueWB.getEquipmentMap(), 10, "high", "continuous");
     }
 
     private void congestionAlderRoadNBMossleyAvenueEB(){
         System.out.println(">> Simulating congestion for Alder Rd NB and Mossley Ave EB...");
-        c.simulateCongestion(alderRoadNB.getEquipmentMap(), 1, "high", "sequence");
-        c.simulateCongestion(mossleyAvenueEB.getEquipmentMap(), 1, "high", "sequence");
+        c.simulateCongestion(alderRoadNB.getEquipmentMap(), 10, "high", "continuous");
+        c.simulateCongestion(mossleyAvenueEB.getEquipmentMap(), 10, "high", "continuous");
     }
 
     private void congestionAlderRoadSBMossleyAvenueEB(){
         System.out.println(">> Simulating congestion for Alder Rd SB and Mossley Ave EB...");
-        c.simulateCongestion(alderRoadSB.getEquipmentMap(), 1, "high", "continuous");
-        c.simulateCongestion(mossleyAvenueEB.getEquipmentMap(), 1, "high", "continuous");
+        c.simulateCongestion(alderRoadSB.getEquipmentMap(), 10, "high", "continuous");
+        c.simulateCongestion(mossleyAvenueEB.getEquipmentMap(), 10, "high", "continuous");
     }
 
     void generateData(){
@@ -72,41 +72,40 @@ class DataGenerator {
         e.preSimulation();
 
         noCongestionAllApproaches();
-        e.pause(300);
+        e.pause(7200);
         e.clearAll();
 
         intermittentCongestionAllApproaches();
-        e.pause(60);
+        e.pause(7200);
         e.clearAll();
 
         // run congested scenarios for half an hour each
         congestionAllApproaches();
-        e.pause(1800);
+        e.pause(7200);
         e.clearAll();
 
         congestionAlderRoadBothWays();
-        e.pause(1800);
+        e.pause(7200);
         e.clearAll();
 
         congestionMossleyAvenueBothWays();
-        e.pause(1800);
+        e.pause(7200);
         e.clearAll();
 
         congestionAlderRoadNBMossleyAvenueWB();
-        e.pause(1800);
+        e.pause(7200);
         e.clearAll();
 
         congestionAlderRoadSBMossleyAvenueWB();
-        e.pause(1800);
+        e.pause(7200);
         e.clearAll();
 
         congestionAlderRoadNBMossleyAvenueEB();
-        e.pause(1800);
+        e.pause(7200);
         e.clearAll();
 
         congestionAlderRoadSBMossleyAvenueEB();
-        System.out.println("going again");
-        e.pause(5);
+        e.pause(7200);
         e.clearAll();
 
         e.exit();
