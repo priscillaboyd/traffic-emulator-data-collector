@@ -7,6 +7,7 @@ class DataGenerator {
     private MossleyAvenueWB mossleyAvenueWB = new MossleyAvenueWB();
     private MossleyAvenueEB mossleyAvenueEB = new MossleyAvenueEB();
 
+    //simulate scenarios
     private void noCongestionAllApproaches(){
         System.out.println(">> Simulating no congestion at all approaches...");
         c.simulateCongestion(alderRoadNB.getEquipmentMap(), 10, "low", "sequence");

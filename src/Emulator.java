@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 class Emulator {
 	private Screen screen = new Screen();
 	
-	// initialise emulator by selecting icon in IC4 tool
+	// initialise emulator by selecting icon in IC4 emulator
 	void init(){
 		try{
 			screen.click("img/icoEmSignals.png");

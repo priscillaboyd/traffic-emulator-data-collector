@@ -20,6 +20,7 @@ public class MossleyAvenueEB implements Approach {
         setType(Approach.type.VEHICLE);
     }
 
+    //add associated equipment
     public void addEquipment() {
         map = ArrayListMultimap.create();
         map.put("D", "DSL1");
